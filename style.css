@@ -8,6 +8,22 @@ blockquote {
   font-family: 'DM Serif Display', serif;
 }
 
+.darker-bg {
+    background-color: #181a1b;
+}
+.lighter-bg {
+  background-color: #1b1e1f
+}
+
+.card-body {
+  background-color: #181a1b;
+  border: 1px solid #2c2c2b;
+}
+
+body {
+  color: #d1cdc7;
+}
+
 h1, .h1 {
   font-size: 65px;
 }
@@ -59,7 +75,8 @@ sup, .sup {
 }
 
 .card-footer {
-  background-color: white;
+  background-color: #181a1b;
+  border: 1px solid #2c2c2b;
   padding: 1rem 1rem;
 }
 
@@ -107,6 +124,11 @@ header.p-section {
   text-transform: uppercase;
   padding: .65rem 1.5rem;
   margin-bottom: 5px;
+}
+f
+.btn-light {
+  background-color: #1b1e1f;
+  border: 1px solid #2c2c2b;
 }
 
 .btn-group-lg>.btn, .btn-lg {
