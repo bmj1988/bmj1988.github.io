@@ -171,3 +171,9 @@ f
   padding: 0 0.25em;
   bottom: 0.2em;
 }
+
+.background-image.smaller-img img {
+    max-width: 75%;
+    margin: 0 auto;
+    display: block;
+}
